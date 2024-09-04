@@ -22,9 +22,15 @@ header.scrolled {
     background-color: rgba(255, 193, 7, 0.7);
 }
 
+
 #productos .card {
     border: none;
     background-color: #ffee99;
+}
+
+.mapa {
+    margin: auto;
+    max-width: 80%;
 }
 
 footer {
