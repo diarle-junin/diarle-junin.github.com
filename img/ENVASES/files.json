@@ -7,8 +7,7 @@
         "125roma.jpg",
         "2000PET.png",
         "200roma.png",
-        "20101000.jpg",
-        "250-laboratorio-1-300x300.jpg",
+        "1000PEAD.jpg",
         "250LABO.jpg",
         "250PEAD.jpg",
         "250POTE.jpg",
@@ -19,5 +18,25 @@
         "500PEAD.jpg",
         "75ccPOTE.jpg",
         "POTE500.png"
+    ],
+    "nombres": [
+        "Envase 1lt Lavandina. \n Material Pet",
+        "Envase 1lt Cristal. \n Material Pet",
+        "Envase 1lt Pote.",
+        "Envase 100cc. \n Material PEAD",
+        "Envase 125cc roma.",
+        "Envase 2lt Cristal. \n Material Pet",
+        "Envase 200cc roma.",
+        "Envase 1lt blanco. \n Material Pead",
+        "Envase 250cc Laboratorio. \n Material PVC",
+        "Envase 250cc blanco. \n Material PVC",
+        "Envase 250cc Pote",
+        "Envase 500cc Chato",
+        "Envase 500cc roma",
+        "Envase 5lt bidón. \n Material Pead",
+        "Envase 500cc gaseosa. \n Material Pet",
+        "Envase 500cc blanco. \n Material PVC",
+        "Envase 75cc Pote",
+        "Envase 500cc Pote"
     ]
 }
