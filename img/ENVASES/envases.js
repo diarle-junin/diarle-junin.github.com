@@ -27,13 +27,14 @@ function processImgs(img_url, descripcion) {
     img_node.setAttribute("alt", descripcion);
     var card_body = document.createElement("div");
     card_body.setAttribute("class", "card-body");
-    var node_description = document.createNode("p");
+    var node_description = document.createElement("p");
     var text_node = document.createTextNode(descripcion);
     node_description.appendChild(text_node);
     card_body.appendChild(node_description);
     card_node.appendChild(img_node);
     card_node.appendChild(card_body);
     node.appendChild(card_node);
+    document.getElementById('row').appendChild(node);
 }
 
 async function gettingAllImgNames() {
