@@ -22,7 +22,7 @@ function processImgs(img_url, descripcion) {
     var card_node = document.createElement("div");
     card_node.setAttribute("class", "card text-center");
     var img_node = document.createElement("img");
-    img_node.setAttribute("src", img_url);
+    img_node.setAttribute("src", pref_env+img_url);
     img_node.setAttribute("class", "card-img-top");
     img_node.setAttribute("alt", descripcion);
     var card_body = document.createElement("div");
