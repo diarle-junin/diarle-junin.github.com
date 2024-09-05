@@ -17,17 +17,17 @@ window.onload = function () {
  * */
 
 function processImgs(img_url, descripcion) {
-    var node = document.createElement('div');
-    node.setAttribute('class', 'col-6 col-lg-2 mb-4 gx-lg-3 d-flex justify-content-center');
-    var card_node = document.createElement('div');
-    card_node.setAttribute('class', 'card text-center');
-    var img_node = document.createElement('img');
-    img_node.setAttribute('src', img_url);
-    img_node.setAttribute('class', "card-img-top");
-    img_node.setAttribute('alt', descripcion);
-    var card_body = document.createElement('div');
-    card_body.setAttribute('class', 'card-body');
-    var node_description = document.createNode('p');
+    var node = document.createElement("div");
+    node.setAttribute("class", "col-6 col-lg-2 mb-4 gx-lg-3 d-flex justify-content-center");
+    var card_node = document.createElement("div");
+    card_node.setAttribute("class", "card text-center");
+    var img_node = document.createElement("img");
+    img_node.setAttribute("src", img_url);
+    img_node.setAttribute("class", "card-img-top");
+    img_node.setAttribute("alt", descripcion);
+    var card_body = document.createElement("div");
+    card_body.setAttribute("class", "card-body");
+    var node_description = document.createNode("p");
     var text_node = document.createTextNode(descripcion);
     node_description.appendChild(text_node);
     card_body.appendChild(node_description);
@@ -37,14 +37,21 @@ function processImgs(img_url, descripcion) {
 }
 
 async function gettingAllImgNames() {
-    await fetch(pref_env + "files.json", { 
-        "Origin": "https://diarle-junin.github.io/",
-        ContentType: 'text/plain' })
+    await fetch(pref_env + "files.json", {
+        Origin: "https://diarle-junin.github.io/",
+        ContentType: "text/plain"
+    })
         .then((response) => {
             return response.text();
         })
         .then((data) => {
             console.log(data ? JSON.parse(data) : {});
+            for (var envase of data.envases) {
+                console.log("soy el envase: ", envase);
+            }
+            for (var nombre of data.nombres) {
+                console.log("soy el nombre: ", nombre);
+            }
         })
         .catch((error) => {
             console.log(error);
