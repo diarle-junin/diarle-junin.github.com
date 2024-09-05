@@ -45,12 +45,10 @@ async function gettingAllImgNames() {
             return response.text();
         })
         .then((data) => {
-            console.log(data ? JSON.parse(data) : {});
-            for (var envase of data.envases) {
-                console.log("soy el envase: ", envase);
-            }
-            for (var nombre of data.nombres) {
-                console.log("soy el nombre: ", nombre);
+            var dataObj = JSON.parse(data);
+            for (var i = 0; i < dataObj.envases.length; i++ ) {
+                console.log("soy el envase: ", dataObj.envases[i] + " nombre: "+dataObj.nombres[i]);
+                processImgs(dataObj.envases[i], dataObj.nombres[i]);
             }
         })
         .catch((error) => {
