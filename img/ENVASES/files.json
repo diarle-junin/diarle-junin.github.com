@@ -1,6 +1,23 @@
 {
-    "75ccPOTE.jpg",
-    "100PEAD.jpg",
-    "125roma.jpg",
-    "200roma.png"
+    "envases": [
+        "1000LAVANDINA.png",
+        "1000PET.png",
+        "1000POTE.jpg",
+        "100PEAD.jpg",
+        "125roma.jpg",
+        "2000PET.png",
+        "200roma.png",
+        "20101000.jpg",
+        "250-laboratorio-1-300x300.jpg",
+        "250LABO.jpg",
+        "250PEAD.jpg",
+        "250POTE.jpg",
+        "500-ml-chato.jpg",
+        "500-ml-ro-300x300.jpg",
+        "5000BIDON.jpg",
+        "500GASEOSA.png",
+        "500PEAD.jpg",
+        "75ccPOTE.jpg",
+        "POTE500.png"
+    ]
 }
