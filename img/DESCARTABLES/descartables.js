@@ -37,7 +37,7 @@ function processImgs(img_url, descripcion) {
 }
 
 async function gettingAllImgNames() {
-    await fetch(pref_env + "files.json", {
+    await fetch(pref_env + "descartables.json", {
         Origin: "https://diarle-junin.github.io/",
         ContentType: "text/plain"
     })
