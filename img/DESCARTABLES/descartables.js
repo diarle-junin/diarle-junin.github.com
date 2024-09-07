@@ -46,7 +46,7 @@ async function gettingAllImgNames() {
         })
         .then((data) => {
             var dataObj = JSON.parse(data);
-            for (var i = 0; i < dataObj.envases.length; i++ ) {
+            for (var i = 0; i < dataObj.descartables.length; i++ ) {
                 console.log("soy el descartable: ", dataObj.descartables[i] + " nombre: "+dataObj.nombres[i]);
                 processImgs(dataObj.descartables[i], dataObj.nombres[i]);
             }

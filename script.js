@@ -15,7 +15,7 @@ window.onscroll = function () {
 
 function resizeProductos() {
     var height = document.getElementById("header").offsetHeight;
-    document.getElementById("productos").style.marginTop = height-60 + "px";
+    document.getElementById("productos").style.marginTop = height-45 + "px";
 }
 
 window.onresize = resizeProductos();
