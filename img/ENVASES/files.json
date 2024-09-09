@@ -1,5 +1,8 @@
 {
     "envases": [
+        "valvula_gatillo.jpg",
+        "valvulas_pulverizadoras.jpg",
+        "valvula_cremera.jpg","
         "1000LAVANDINA.png",
         "1000PET.png",
         "1000POTE.jpg",
@@ -20,6 +23,9 @@
         "POTE500.png"
     ],
     "nombres": [
+        "Válvulas gatillo",
+        "Atomizadores y Rociadores",
+        "Válvulas cremeras",
         "Envase 1lt Lavandina. \n Material Pet",
         "Envase 1lt Cristal. \n Material Pet",
         "Envase 1lt Pote.",
