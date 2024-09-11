@@ -38,3 +38,8 @@ function hideShowDivMenu() {
     //document.getElementById('div-menu').style.display = top ? 'flex' : 'none';
     // document.getElementById('div-menu').style.display = top ? 'none' : 'flex';
 }
+
+function comprobar(obj) {
+    console.log(object);
+    return true
+}
