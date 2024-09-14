@@ -41,5 +41,5 @@ function hideShowDivMenu() {
 
 function comprobar(obj) {
     console.log(object);
-    return true
+    return true;
 }
